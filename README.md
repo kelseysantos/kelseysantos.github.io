@@ -12,5 +12,4 @@ I don't do miracles, but I work in the world of Linux clouds.
     <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 1px; margin-bottom: 0px;" />
     <!-- <img src="xxxxxxxxxxxxxxxxxxxxx" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" /> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Devops-toolchain-es.svg" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" />
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" />
 </div>
