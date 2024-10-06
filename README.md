@@ -43,36 +43,7 @@ I don't do miracles, but I work in the world of Linux clouds.
 </div> -->
 
 ## Teste
-
-<!--header-->
-<table>
-  <tr><td colspan="2"><a href="/README.md#-plugins">← Back to plugins index</a></td></tr>
-  <tr><th colspan="2"><h3>🧑‍🤝‍🧑 People</h3></th></tr>
-  <tr><td colspan="2" align="center"><p>This plugin can display relationships with users, such as followers, sponsors, contributors, stargazers, watchers, members, etc.</p>
-</td></tr>
-  <tr><th>⚠️ Disclaimer</th><td><p>This plugin is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://github.com">GitHub</a>.
-All product and company names are trademarks™ or registered® trademarks of their respective holders.</p>
-</td></tr>
-  <tr>
-    <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
-    <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a> <a href="/source/templates/repository/README.md"><code>📘 Repository template</code></a></td>
-  </tr>
-  <tr>
-    <td><code>👤 Users</code> <code>👥 Organizations</code> <code>📓 Repositories</code></td>
-  </tr>
-  <tr>
-    <td><code>🔑 (scopeless)</code> <code>read:org (optional)</code> <code>read:user (optional)</code> <code>read:packages (optional)</code> <code>repo (optional)</code></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <details open><summary>Related to a user</summary><img src="https://github.com/kelseysantos/metrics/blob/examples/metrics.plugin.people.followers.svg" alt=""></img></details>
-      <details><summary>Related to a repository</summary><img src="https://github.com/kelseysantos/metrics/blob/examples/metrics.plugin.people.repository.svg" alt=""></img></details>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-</table>
-<!--/header-->
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&width=435&lines=Kelsey+Santos;Let+me+be+a+better+for+me.+Let+me+be+a+better+for+you)](https://git.io/typing-svg)
 
 ## Links Interessantes
 
