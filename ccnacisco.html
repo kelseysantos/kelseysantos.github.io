@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Kelsey Santos - Let me be a better for you</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid p-3 text-white text-center" style="background-color: #0384e0;">
+        <h1>Kelsey Santos <i class="bi bi-cloud"></i></h1>
+        <p>I don't do miracles, but I work in the world of Linux clouds</p>
+    </div>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- style="background-color: #e3f2fd;" -->
+    <div class="container mt-2">
+      <a href="index.html"><button type="button" class="btn btn-dark"><i class="bi bi-qr-code"></i> Voltar Home</button></a>
+
+    </nav>
+
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm-10">
+          <h2><i class="bi bi-ethernet"></i> Comandos Básicos Cisco</h2>
+          <p>Todos comandos são executados em modo previlegiado de anotações minhnas.</p>
+          <table class="table table-dark table-hover">
+           <thead>
+            <tr>
+              <th class="bg-primary text-white">CISCO COMANDOS</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr><th>Comando</th><th>Descrição</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div class="text-white"># show mac address-table dynamic<br># macof -i eth0 <strong class="alert-primary">(ESSE COMANDO É LINUX)</strong></div></td>
+                <td><div class="text-white">Mostra a Table de Endereços MAC<br>A Ferramenta macof é tão perigoso é que um invasor pode criar um ataque de estouro de tabela MAC muito rapidamente. Por exemplo, um switch Catalyst 6500 pode armazenar 132.000 endereços MAC em sua tabela de endereços MAC</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show vlan brief</div></td>
+                <td><div class="text-white">Mostra as VLANs de todas as Portas</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">clear mac address-table</div></td>
+                <td><div class="text-white">Limpa a table de endereços mac do Switch</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">hostname NOME</div></td>
+                <td><div class="text-white">Muda o Hostname do Switch</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">wr<br>do wr (no mode de conf)</div></td>
+                <td><div class="text-white">Salva todas as configurações</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show interfaces trunk</div></td>
+                <td><div class="text-white">Mostras as portas trunk que estão configuradas no switch OBS: gerado automaticamente se configurado no CORE</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">interface vlan 100</div></td>
+                <td><div class="text-white">Criando uma interface para VLAN 100 para adição de IP</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">ip add 10.1.1.1 255.255.255.0</div></td>
+                <td><div class="text-white">Criando um IP ou Setando um IP para Alguma Interface de Rede</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">no shutdown</div></td>
+                <td><div class="text-white">Reiniciando ou Ligando a interface de rede</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">ip routing</div></td>
+                <td><div class="text-white">Fazendo as configurações do Roteador ou SWLayer 3 funcione o roteamento</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">ip helper-address 10.1.1.253</div></td>
+                <td><div class="text-white">Replicar um servidor DHCP ou Configurar como DHCP Delay</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">interface range gigabitEthernet 1/0/1-2</div></td>
+                <td><div class="text-white">Configura um range de portas Ethernet</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">channel-group 1 mode active</div></td>
+                <td><div class="text-white">Se houver dois cabos como LOOP, aqui vc configura como somente uma OBS: Nos Dois Roteadores/Switch</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show etherchannel summary</div></td>
+                <td><div class="text-white">Visualiza as Port-Channel confiugadas/em uso</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">interface port-channel 1</div></td>
+                <td><div class="text-white">Configura interface port-channel</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">spanning-tree vlan 100 priority 0</div></td>
+                <td><div class="text-white">Dar prioridade ao roteador CORE na rede, executar dentro do roteador ou switch q quer dar prioridade</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">standby version 2</div></td>
+                <td><div class="text-white">Execute esse comando caso haja problema com numeração acima de 256</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show version</div></td>
+                <td><div class="text-white">Mostra a versão da ROM do System Bootstrap</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">clock rate 4800</div></td>
+                <td><div class="text-white">Altera do clock da porta serial</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# router ospf 100<br>network 10.0.0.0 0.0.0.255 area 0<br>network 20.0.0.0 0.0.0.255 area 0</div></td>
+                <td><div class="text-white">Configurações de OSPF simples</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">router bgp 300<br>neighbor 13.0.0.2 remote-as 200<br>neighbor 14.0.0.2 remote-as 400<br>network 13.0.0.0 mask 255.255.255.252<br>network 14.0.0.0 mask 255.255.255.252</div></td>
+                <td><div class="text-white">Configurações de BGP Simples em suas redes conectada no roteador</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white"><strong>IPV4</strong><br>(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2<br><strong>IPV6</strong><br>(config)# ipv6 route ::/0 2001:db8:acad:2::2<br><strong>Vefificar Rotas Static</strong><br># show ip route static<br># show ipv6 route static<br><strong>Rotas Flutuantes</strong><br>(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2<br>(config)# ip route 0.0.0.0 0.0.0.0 10.10.10.2 5<br>(config)# ipv6 route ::/0 001:db8:acad:2::2<br>(config)# ipv6 route ::/0 2001:db8:feed:10::2 5<br>(config)# end<br># show ip route static | begin Gateway<br># show run | include ipv6 route</div></td>
+                <td><div class="text-white">Criando Rotas Estaticas IPV4 IPV6<br><div class="alert alert-info">Em <strong>Rotas Flutuantes</strong> a rota por default é 1 e não aparece, portanto coloquei mais uma como 5 para rota alternativa, caso caia a rota default a alternativa assume.</div></div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">name NOMEDAVLAN</div></td>
+                <td><div class="text-white">Dentro da VLAN digite o comando para identificar por nome</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">interface fastEthernet 0/1</div></td>
+                <td><div class="text-white">Configurar a Interface fastEthernet e o Exemplo foi a 0/1</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">switchport mode access</div></td>
+                <td><div class="text-white">Configurando uma porta de Acesso</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">switchport access vlan 100</div></td>
+                <td><div class="text-white">Especificando o número da VLAN de Acesso</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">switchport mode trunk</div></td>
+                <td><div class="text-white">Configuração Realizada na Interface do CORE Ex: G 1/0/3</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">standby 100 ip 10.1.1.1</div></td>
+                <td><div class="text-white">Cria um IP Virtual principalmente para Gateway</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">standby 100 priority 120</div></td>
+                <td><div class="text-white">Proridade de assumir, quanto maior melhor</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">standby 100 preempt</div></td>
+                <td><div class="text-white">Quando Core principal cai o secundario assume quando o principal volta ele assume</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show standby brief</div></td>
+                <td><div class="text-white">Mostra as configurações do IP Virtual</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">access-list 100 deny tcp 10.1.1.0 0.0.0.255 host 172.16.0.252 eq 80</div></td>
+                <td><div class="text-white">Acess List configura assim access-lit NUMERO deny tcp REDEIP WILDCARD host IPHOSTDESTINO eq PORTA</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">access-list 100 permit ip any any</div></td>
+                <td><div class="text-white">Depois de fazer a lista de acesso tem que executar esse comando porque não se pode deixar para todos, tem que permitir alquem</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">ip access-group 100 out</div></td>
+                <td><div class="text-white">Depois de configurar a lista de acesso, configurar na interface o Grupo de Acesso. (VLAN ou PORTETH)</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show access-lists</div></td>
+                <td><div class="text-white">Mostras os Acesso de Lista Criado</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">show cdp neighbors</div></td>
+                <td><div class="text-white">Verificar todos os vizinhos que estão perto do equipamentos</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">no ip domain-lookup</div></td>
+                <td><div class="text-white">Retirar os erros dos comandos para que ele não procure em um dominio</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">line console 0<br>privilege level 15</div></td>
+                <td><div class="text-white">Já no cabo de console entrar direto para a tela de configuração</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">switchport trunk allowed vlan 100,200,300,400,500,600</div></td>
+                <td><div class="text-white">Por segurança permitir somente essas VLAN para Trunk.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white"># show ip ssh<br>(config)# ip domain-name lnxj.ti<br>(config)# crypto key generate rsa<br>(config)# username $USUARIO secret $PASSWORD<br>(config)# line vty 0 15<br>(config-line)#transport input ssh<br>(config-line)#login local<br>(config-line)# exit<br>(config)# ip ssh version 2<br>(config)# line vty 0 4<br>(config-line)# transport input ssh<br>(config-line)# login local</div></td>
+                <td><div class="text-white">Configurando o Acesso SSH Seguro, acessando pelo client <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">Putty.exe</a> para Windows ou OpenSSH para Linux, ou qualquer um de sua preferência.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">#configure terminal<br>(config)# hostname $NOME<br>(config)# enable secret class<br>(config)# line console 0<br>(config-line)# password cisco<br>(config-line)# login<br>(config-line)# exit<br>(config)# line vty 0 4<br>(config-line)# assword cisco<br>(config-line)# login<br>(config-line)# exit<br>(config)# service password-encryption<br>(config)# banner motd #Somente Acesso Autorizado!!!!!#</div></td>
+                <td><div class="text-white">Configuração Padrão de Um Roteador Cisco</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# interface Fastethernet 0/1<br>(config-if)# ip address 192.168.11.2 255.255.255.0 <br>(config-if)# ipv6 address 2001:db8:acad:2::2/64 <br>(config-if)# description Link to LAN SERVICOSTI<br>(config-if)# no shutdown<br>(config-if)# exit<br>(config)# interface gigabitethernet 0/0/1<br>(config-if)# ip address 192.168.11.1 255.255.255.0 <br>(config-if)# ipv6 address 2001:db8:acad:2::1/64 <br>(config-if)# description Link to LAN 2<br>(config-if)# no shutdown<br>(config-if)# exit<br>(config)# interface serial 0/0/0<br>(config-if)# ip address 209.165.200.225 255.255.255.252 <br>(config-if)# ipv6 address 2001:db8:acad:3::225/64 <br>(config-if)# description Link to RCBA<br>(config-if)# no shutdown<br>(config-if)# exit</div></td>
+                <td><div class="text-white">Configuração Padrão para Uma Interface de Roteador/Switch Cisco</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# interface loopback 0<br>(config-if)# ip address 10.0.0.1 255.255.255.0<br>(config-if)# exit</div></td>
+                <td><div class="text-white">Configuração para Interface Loopback</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# vlan 10<br>(config-vlan)# name COFRE<br>(config-vlan)# vlan 110<br>(config-vlan)# name VOIP<br>(config-vlan)# exit<br>(config)# interface fa0/18<br>(config-if)# switchport mode access<br>(config-if)# switchport access vlan 10<br>(config-if)# mls qos trust cos<br>(config-if)# switchport voice vlan 110<br>(config-if)# end</div></td>
+                <td><div class="text-white">Configurando VLAN Padrão para Acesso QOS VOZ, outro exemplo é <b>mls qos trust [cos | device cisco-phone | dscp | ip-precedence]</b></div></td>
+              </tr>  
+              <tr>
+                <td><div class="text-white">(config)# interface fastEthernet 0/1<br>(config-if)# switchport mode trunk<br>(config-if)# switchport trunk native vlan 99<br>(config-if)# switchport trunk allowed vlan 10,20,30,99<br>(config-if)# end<br><div class="alert alert-success"><strong>VERIFICANDO LINK TRUNK</strong><br># show interfaces fa0/1 switchport</div><div class="alert alert-primary"><strong>REDEFINIR PARA O ESTADO PADRÃO</strong><br>(config)# interface fastEthernet 0/1<br>(config-if)# no switchport trunk native<br>(config-if)# no switchport trunk allowed<br>(config-if)# end</div></div></td>
+                <td><div class="text-white">Comandos de Configuração de Trunk<br>Essa configuração pressupõe o uso de switches Cisco Catalyst 2960 que usam automaticamente o encapsulamento 802.1Q em links de tronco. Outros switches podem exigir configuração manual do encapsulamento. Sempre configure as duas extremidades de um link de tronco com a mesma VLAN nativa. Se a configuração do tronco 802.1Q não for a mesma em ambas as extremidades, o Cisco IOS Software relatará erros</div>
+                </td>
+              </tr>
+              <tr>
+                <td><div class="text-white"><strong>PARA HABILITAR EM OUTRO MODELO</strong><br>(config-if)# switchport mode trunk<br>(config-if)# switchport nonegotiate<div class="alert alert-primary">Para <strong>reativar o protocolo de entroncamento dinâmico</strong>, use o switchport mode dynamic auto comando abaixo:<br>(config-if)# switchport mode dynamic auto</div></div></td>
+                <td><div class="text-white">Configuração ao DTP, Protocolo proprietário da Cisco<br>A configuração DTP é padrão para switches Cisco Catalyst 2960 e 3650 é dinâmico auto, caso não esteja ativado tem os comando ao Lado.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.9<br>(config)# ip dhcp excluded-address 192.168.1.254<br>(config)# ip dhcp pool LAN-CUIABATI<br>(dhcp-config)# network 192.168.1.0 255.255.255.0<br>(dhcp-config)# default-router 192.168.1.1<br>(dhcp-config)# dns-server 192.168.2.5<br>(dhcp-config)# domain-name lnxj.com<br>(dhcp-config)# end<div class="alert alert-success">Verificar a configuração <strong>DHCPv4</strong><br># show running-config | section dhcp<br># show ip dhcp binding<br># show ip dhcp server statistics</div><div class="alert alert-primary">Destaivando o Servidor <strong>DHCPv4</strong><br>(config)# no service dhcp<br>(config)# service dhcp</div></div></td>
+                <td><div class="text-white">Servidor <strong>DHCPv4</strong> do Cisco</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config-if)# ipv6 nd other-config-flag<br>(config-if)# end<br># show ipv6 interface g0/0/1 | begin ND<br>--------------------------- <strong>DHCPv6 Stateful</strong><br>(config)# int g0/0/1<br>(config-if)# ipv6 nd managed-config-flag<br>(config-if)# ipv6 nd prefix default no-autoconfig<br>(config-if)# end<br># show ipv6 interface g0/0/1 | begin ND</div></td>
+                <td><div class="text-white">Ativar o DHCPv6 Sem estado na interface e em seguida Ativando o DHCPv6 Stateful na interface se precisar.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# ipv6 unicast-routing<br>(config)# ipv6 dhcp pool IPV6-STATELESS<br>(config-dhcpv6)# dns-server 2001:db8:acad:1::254<br>(config-dhcpv6)# domain-name servicosti.com<br>(config-dhcpv6)# exit<br>(config)# interface GigabitEthernet0/0/1<br>(config-if)# description Link to LAN<br>(config-if)# ipv6 address fe80::1 link-local<br>(config-if)# ipv6 address 2001:db8:acad:1::1/64<br>(config-if)# ipv6 nd other-config-flag<br>(config-if)# ipv6 dhcp server IPV6-STATELESS<br>(config-if)# no shut<br>(config-if)# end<br># wr<div class="alert alert-success">Configurar o <strong>Cliente DHCPv6</strong><br>(config)# ipv6 unicast-routing<br>(config)# interface g0/0/1<br>(config-if)# ipv6 enable<br>(config-if)# ipv6 address autoconfig<br>(config-if)# end<br># show ipv6 interface brief<br># show ipv6 interface brief</div></div></td>
+                <td><div class="text-white">Servidor <strong>DHCPv6</strong> sem estado</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# ipv6 unicast-routing<br>(config)# ipv6 dhcp pool IPV6-STATEFUL<br>(config-dhcpv6)# address prefix 2001:db8:acad:1::/64<br>(config-dhcpv6)# dns-server 2001:4860:4860::8888<br>(config-dhcpv6)# domain-name lnxj.com<br>(config)# interface GigabitEthernet0/0/1<br>(config-if)# description Link to LAN<br>(config-if)# ipv6 address fe80::1 link-local<br>(config-if)# ipv6 address 2001:db8:acad:1::1/64<br>(config-if)# ipv6 nd managed-config-flag<br>(config-if)# ipv6 nd prefix default no-autoconfig<br>(config-if)# ipv6 dhcp server IPV6-STATEFUL<br>(config-if)# no shut<br>(config-if)# end<br># wr (GRAVAR)<div class="alert alert-success">Cliente <strong>DHCPv6</strong> com Mont.<br>(config)# ipv6 unicast-routing<br>(config)# interface g0/0/1<br>(config-if)# ipv6 enable<br>(config-if)# ipv6 address dhcp<br>(config-if)# end<br># show ipv6 interface brief<br># show ipv6 dhcp interface g0/0/1<br># show ipv6 dhcp pool<br>show ipv6 dhcp binding</div><div class="alert alert-primary">Agente de retransmissão de <strong>DHCPv6</strong><br>(config)# interface gigabitethernet 0/0/1<br>(config-if)# ipv6 dhcp relay destination 2001:db8:acad:1::2 G0/0/0<br>(config-if)# end</div></div></td>
+                <td><div class="text-white">Servidor <strong>DHCPv6</strong> com monitoração de estado<br>O <strong>show ipv6 dhcp interface g0/0/1</strong> comando confirma que o DNS e os nomes de domínio foram aprendidos<br><br><br>Comandos para retransmissão de DHCPv6<br>Router(config-if)# ipv6 dhcp relay destination ipv6-address [interface-type interface-number]</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white"># configure terminal<br>(config)#interface FastEthernet0/1<br>(config-if)#duplex auto<br>(config-if)#speed auto<br>(config-if)#mdix auto<br>(config-if)# end<br>#copy running-config startup-config</div></td>
+                <td><div class="text-white">Verificando as portas do Switch se estão funcionando corretamente</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">(config)# interface range fa0/8 - 24<br>(config-if-range)# shutdown<br><div class="alert alert-info"><strong>HABILITANDO A PORTA SEGURA</strong><br>(config)# interface f0/1<br>(config-if)# switchport port-security<br>(config-if)# switchport mode access<br>(config-if)# switchport port-security<br>(config-if)# end<br># wr</div><div class="alert alert-primary"><strong>VERIFICAR PORT-SECURITY</strong><br># show port-security interface f0/1</div></div></td>
+                <td><div class="text-white">Desabilitando Portas para não serem usada fisicamente ou para impedir um ataque hacker.<br><strong>Observação:</strong> Se uma porta está configurada como ativa através do comando switchport port-security e mais de um dispositivo estiver conectado àquela porta, a porta fará a transição para o estado error-disabled<br><strong>(config-if)# switchport port-security ?</strong><br><br>Definir o número máximo de endereços MAC permitidos em uma porta<br><strong>(config-if)# switchport port-security maximum <i>value</i></strong></div></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="text-white">
+                    (config-if)# switchport port-security maximum value<br>
+                    (config)# interface f0/1<br>
+                    (config-if)# switchport port-security maximum ?<br>
+                    <strong class="alert-info"><1-8192>  Maximum addresses</strong><br>
+                      (config-if)# switchport port-security maximum<br>
+                      <strong class="alert-info">Manualmente configurada</strong><br>
+                      (config-if)# switchport port-security mac-address <kbd><i>mac-address</i></kbd><br>
+                      <strong class="alert-info">Dinamicamente aprendidas Sticky</strong><br>
+                      (config)# interface fa0/1<br>
+                      (config-if)# switchport mode access<br>
+                      (config-if)# switchport port-security<br>
+                      (config-if)# switchport port-security maximum 2<br>
+                      (config-if)# switchport port-security mac-address aabb.ccdd.1122<br>
+                      (config-if)# switchport port-security mac-address sticky<br>
+                      (config-if)# end<br>
+                      # show port-security interface fa0/1<br>
+                      # show port-security address<br>
+                      <strong class="alert-primary">VERIFICAR MAC APRENDIDOS</strong><br>
+                      # show run interface fa0/1<br>
+                    </div>
+                  </td>
+                  <td><div class="text-white">Segurança: Trabalhando com Endereços MAC</div></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      (config)# interface fa0/1<br>
+                      (config-if)# switchport port-security aging time 10<br>
+                      (config-if)# switchport port-security aging type inactivity<br>
+                      (config-if)# end<br>
+                      # show port-security interface fa0/1<br>
+                      <strong class="alert-info">Em caso de VIOLAÇÃO</strong><br>
+                      (config)# interface f0/1<br>
+                      (config-if)# switchport port-security violation restrict<br>
+                      (config-if)# end<br>
+                      # show port-security interface f0/1<br>
+                      <strong class="alert-info">Habilitar o Error Disable Urgencia</strong><br>
+                      (config)# int fa0/1<br>
+                      (config-if)# switchport port-security violation shutdown<br>
+                      (config-if)# end<br>
+                      # show interface fa0/1 | include down<br>
+                      # show port-security interface fa0/1<br>
+                      # show port-security<br>
+                      # show port-security interface fastethernet 0/1<br>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      Configurando Tempo de Inatividade na porta security <br>
+                      <strong>(config-if)# switchport port-security aging { static | time time | tipo {absolute | inactivity}}</strong><br>
+                      Utilizando o comando <b>switchport port-security aging</b> para habilitar e desabilitar o vencimento estático da porta segura ou para definir o tempo ou tipo de vencimento.<br>
+                      Caso a porta seja violada e ela é desabilitada utilize o comando <b>shutdown</b> então utilize o comando <b>no shutdown</b> para deixar a porta operacional.
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      <strong class="alert-info">Exemplo Salto VLAN</strong><br>
+                      <div class="spinner-grow spinner-grow-sm"></div>As portas FastEthernet 0/1 a fa0/16 portas ativas<br>
+                      <div class="spinner-grow spinner-grow-sm"></div>As portas FastEthernet 0/17 a 0/20 portas sem uso<br>
+                      <div class="spinner-grow spinner-grow-sm"></div>As portas FastEthernet 0/21 a 0/24 portas trunk.<br>
+                      (config)# interface range fa0/1 - 16<br>
+                      (config-if-range)# switchport mode access<br>
+                      (config-if-range)# exit<br>
+                      (config)#<br>
+                      (config)# interface range fa0/17 - 20<br>
+                      (config-if-range)# switchport mode access<br>
+                      (config-if-range)# switchport access vlan 1000<br>
+                      (config-if-range)# shutdown<br>
+                      (config-if-range)# exit<br>
+                      (config)# <br>
+                      (config)# interface range fa0/21 - 24<br>
+                      (config-if-range)# switchport mode trunk<br>
+                      (config-if-range)# switchport nonegotiate<br>
+                      (config-if-range)# switchport trunk native vlan 999<br>
+                      (config-if-range)# end<br>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      Mitigando Ataques as VLANs CISCO<br>
+                      O comando global de configuração<p class="text-info"> ip arp inspection validate {[src-mac] [dst-mac] [ip]}</p>é usado para configurar o DAI para descartar pacotes ARP quando os endereços IP são inválidos.
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      (config)# ip dhcp snooping<br>
+                      (config)# interface f0/1<br>
+                      (config-if)# ip dhcp snooping trust<br>
+                      (config-if)# exit<br>
+                      (config)# interface range f0/5 - 24<br>
+                      (config-if-range)# ip dhcp snooping limit rate 10<br>
+                      (config-if-range)# exit<br>
+                      (config)# ip dhcp snooping vlan 5,10,50-52<br>
+                      (config)# end<br>
+                      # show ip dhcp snooping (Verificar snooping)<br>
+                      # show ip dhcp snooping binding (Verificar Binding)<br>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      Mitigando Ataques DHCP
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      (config)# ip dhcp snooping<br>
+                      (config)# ip dhcp snooping vlan 10<br>
+                      (config)# ip arp inspection vlan 10<br>
+                      (config)# interface fa0/24<br>
+                      (config-if)# ip dhcp snooping trust<br>
+                      (config-if)# ip arp inspection trust<br>
+                      (config)# ip arp inspection validate ?<br>
+                      dst-mac  Validate destination MAC address<br>
+                      ip       Validate IP addresses<br>
+                      src-mac  Validate source MAC address<br>
+                      (config)# ip arp inspection validate src-mac<br>
+                      (config)# ip arp inspection validate dst-mac<br>
+                      (config)# ip arp inspection validate ip<br>
+                      (config)# do show run | include validate<br>
+                      ip arp inspection validate ip <br>
+                      (config)# ip arp inspection validate src-mac dst-mac ip<br>
+                      (config)# do show run | include validate<br>
+                      ip arp inspection validate src-mac dst-mac ip <br>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      Mitigando Ataques ARP<br>
+                      O comando global de configuração<p class="text-info"> ip arp inspection validate {[src-mac] [dst-mac] [ip]}</p>é usado para configurar o DAI para descartar pacotes ARP quando os endereços IP são inválidos.
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      (config)# interface fa0/1<br>
+                      (config-if)# switchport mode access<br>
+                      (config-if)# spanning-tree portfast<br>
+                      (config-if)# exit<br>
+                      (config)# spanning-tree portfast default<br>
+                      (config)# exit<br>
+                      # show running-config | begin span<br>
+                      <div class="alert alert-success">
+                        <strong>Configurar o BPDU Guard</strong><br>
+                        (config)# interface fa0/1<br>
+                        (config-if)# spanning-tree bpduguard enable<br>
+                        (config-if)# exit<br>
+                        (config)# spanning-tree portfast bpduguard default<br>
+                        (config)# end<br>
+                        # show spanning-tree summary<br>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      Mitigando Ataque STP<br>
+                      Para verificar se o PortFast está ativado globalmente, você pode usar o comando show running-config | begin span ou o comando show spanning-tree summary. Para verificar se o PortFast está habilitado para uma interface, use o comando show running-config interface type/number, como mostrado no exemplo a seguir. O comando show spanning-tree interface type/number detail também pode ser usado para verificação.
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-white">
+                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </div>
+                  </td>
+                  <td>
+                    <div class="text-white">
+                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-dark table-hover">
+             <thead>
+              <tr>
+                <th class="bg-primary text-white">Este é o Canal de Dicas que fui aprendendo sobre Cisco e Roteamentos</th>
+              </tr>
+            </thead>
+            <thead>
+              <tr><th>Dicas de Especialistas</th></tr></thead>
+              <tr>
+                <td><div class="text-white">Realizando os TRUNK nas VLANs reduz a propagação de Broadcast na rede e conseguentemente o tráfego, quando você faz um TRUNK em um Switch os demais adotam o Trunk através de um protocolo da Cisco chamado Protocolo DTP.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">Não recomendado colocar várias redes dentro de uma mesma VLAN.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">Em um Spanning Tree na rede quanto menor o numero melhor será</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">Para restaurar um switch Catalyst para sua condição padrão de fábrica, desconecte todos os cabos, exceto o console e o cabo de alimentação do switch. Em seguida, digite o comando de modo EXEC <b>erase startup-config</b> privilegiado seguido pelo <b>delete vlan.dat</b> comando.</div></td>
+              </tr>
+              <tr>
+                <td><div class="text-white">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mt-5 p-2 text-white text-center" style="background-color: #0384e0;">
+      <p>Kelsey Santos <i class="bi bi-cloud"></i></p>
+    </div>
+
+  </body>
+  </html>
