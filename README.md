@@ -50,6 +50,8 @@ I don't do miracles, but I work in the world of Linux clouds.
 
 ## Links Interessantes
 
+<a class="github-button" href="https://github.com/kelseysantos/linuxtoturial" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star kelseysantos/linuxtoturial on GitHub">Star</a>
+
 [Tecnologia de Icones](https://marwin1991.github.io/profile-technology-icons/)
 
 [Frase Texto](https://readme-typing-svg.demolab.com/)
