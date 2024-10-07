@@ -15,7 +15,7 @@ I don't do miracles, but I work in the world of Linux clouds.
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Devops-toolchain-es.svg" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" />
 </div>
 
-# Ferramentas de Trabalho
+<!-- # Ferramentas de Trabalho
 
 <div align="center">
 	<table>
@@ -43,7 +43,7 @@ I don't do miracles, but I work in the world of Linux clouds.
 			<td><code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/></code></td>
 		</tr>
 	</table>
-</div>
+</div> -->
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&pause=1000&color=2902FF&width=435&lines=Kelsey+Santos;Let+me+be+a+better+for+me;Let+me+be+a+better+for+you)
 
