@@ -14,7 +14,10 @@ I don't do miracles, but I work in the world of Linux clouds.
     <!-- <img src="xxxxxxxxxxxxxxxxxxxxx" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" /> -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Devops-toolchain-es.svg" alt="icon" width="100" style="width: 100px; height: 100px; margin-right: 0px; margin-bottom: 0px;" />
 </div>
-<!-- <div align="center">
+
+# Ferramentas de Trabalho
+
+<div align="center">
 	<table>
 		<tr>
 			<td><code><img width="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/></code></td>
@@ -40,17 +43,14 @@ I don't do miracles, but I work in the world of Linux clouds.
 			<td><code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/></code></td>
 		</tr>
 	</table>
-</div> -->
+</div>
 
-# No data
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&pause=1000&color=2902FF&width=435&lines=Kelsey+Santos;Let+me+be+a+better+for+me;Let+me+be+a+better+for+you)
 
 # Estatisticas
 ![GitHub Streak](https://streak-stats.demolab.com?user=kelseysantos&locale=pt_BR&date_format=j%20M%5B%20Y%5D&exclude_days=Sun%2CSat)
 
 ## Links Interessantes
-
-<a class="github-button" href="https://github.com/kelseysantos/linuxtoturial" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" aria-label="Star kelseysantos/linuxtoturial on GitHub">Star</a>
 
 [Tecnologia de Icones](https://marwin1991.github.io/profile-technology-icons/)
 
