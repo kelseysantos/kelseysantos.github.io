@@ -42,9 +42,15 @@ I don't do miracles, but I work in the world of Linux clouds.
 	</table>
 </div> -->
 
-## Teste
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=000000&width=435&lines=Kelsey+Santos;Let+me+be+a+better+for+me.+Let+me+be+a+better+for+you)](https://git.io/typing-svg)
+# No data
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&pause=1000&color=2902FF&width=435&lines=Kelsey+Santos;Let+me+be+a+better+for+me;Let+me+be+a+better+for+you)](https://git.io/typing-svg)
+
+
+# Estatisticas
+[![GitHub Streak](https://streak-stats.demolab.com?user=kelseysantos&locale=pt_BR&date_format=j%20M%5B%20Y%5D&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
 
 ## Links Interessantes
 
 [Tecnologia de Icones](https://marwin1991.github.io/profile-technology-icons/)
+
+[Frase Texto](https://readme-typing-svg.demolab.com/)
